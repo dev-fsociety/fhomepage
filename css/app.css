@@ -1,0 +1,117 @@
+@font-face
+{
+    font-family: mr-robot;
+    src: url(../font/mr-robot.ttf);
+}
+
+@font-face
+{
+    font-family: emlatin;
+    src: url(../font/emlatin6.ttf);
+}
+
+.top-bar
+{
+	background-color: rgb(211,32,38);
+}
+
+.callout
+{
+	background-color: black;
+}
+
+.callout h1
+{
+	color: rgb(211,32,38);
+	font-size: 6em;
+	font-family: mr-robot;
+}
+
+.callout .lead
+{
+	color: white;
+	font-size: 2em;
+}
+
+.member p
+{
+	text-align: center;
+}
+
+.countdown
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+    font-family: emlatin;
+	padding: 10px;
+}
+
+#clock
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: mr-robot;
+	color: rgb(211,32,38);
+	padding: 15px;
+	margin: 5px;
+	font-weight: normal;
+}
+
+.member
+{
+    position: relative;
+}
+
+.member img, .member p
+{
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+}
+
+.member p
+{
+    z-index: 3;
+    font-size: 1em;
+	color: rgb(211,32,38);
+    font-family: emlatin;
+}
+
+h2
+{
+    font-family: emlatin;
+}
+
+.member img.character
+{
+    z-index: 2;
+}
+
+#badass
+{
+    display: block;
+    text-align: center;
+    background-color: black;
+    font-size: 5em;
+    color: rgb(211,32,38);
+    font-family: emlatin;
+}
+
+#badass:hover
+{
+    color: white;
+}
+
+#div-logo
+{
+  text-align: center;
+}
+
+.mr-robot
+{
+  font-family: mr-robot;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="" lang="fr">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/dev/fsociety | The best device ever!</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <meta class="foundation-mq">
+  </head>
+<body data-whatinput="mouse">
+    <div class="callout large">
+        <div class="row column text-center">
+            <h1 style="font-size: 6em;">/ dev / fsociety</h1>
+        </div>
+    </div>
+    <div class="row">
+        <!-- <div class="medium-12 large-6 columns">
+            <h2>Notre site</h2>
+            <a id="badass" href="https://nuit-info.insa-cvl.fr/archives/2015/fsociety/dev-fsociety">Découvrez notre site</a>
+        </div> -->
+        <div class="large-6 medium-12 columns">
+            <h2>La saison 2, encore plus BADASS !</h2>
+            <p class="lead countdown">
+            Découvrez notre magnifique site dans :<br/><span id="clock"></span></p>
+
+        </div>
+        <div id="div-logo" class="medium-12 large-6 columns">
+            <img class="character" src="img/logo.png">
+        </div>
+    </div>
+    <hr>
+    <div class="row column">
+        <h2>Des personnages cultes et des nouveaux venus</h2>
+    </div>
+    <div class="row">
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/anthony.jpg" style="display: block; z-index: 2;">
+            <img class="thumbnail real" src="img/placeholder.png" style="z-index: 1; display: block;">
+            <p style="top: 242px;">Anthony Gourd</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/alban.jpg" style="display: block; z-index: 2;">
+            <img class="thumbnail real" src="img/placeholder.png" style="z-index: 1; display: block;">
+            <p style="top: 242px;">Alban Chazot</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/yann.jpg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Yann Caumartin</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/lisa.jpg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Lisa Aubry</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/korlan.jpg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Korlan Colas</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/corentin.jpg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Corentin Mors</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/gaetan.png">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Gaetan Menat</p>
+        </div>
+        <div class="small-6 medium-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/kevin.png">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Kévin Cohen-Tanugi</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-6 medium-3 medium-offset-3 column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/pierre.jpeg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Pierre Bouwet</p>
+        </div>
+        <div class="small-6 medium-3 end column member" style="height: 298px;">
+            <img class="thumbnail character" src="img/samuel.jpg">
+            <img class="thumbnail real" src="img/placeholder.png">
+            <p style="top: 242px;">Samuel Forestier</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row column">
+        <blockquote>Réalisé par l'équipe <span class="mr-robot">/dev/fsociety</span> à l'occasion de la <a href="http://www.nuitdelinfo.com/">Nuit de l'Info 2016</a></blockquote>
+    </div>
+    <script src="js/jquery_002.js"></script>
+    <script src="js/what-input.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/fade_photo.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script>
+        $(document).foundation();
+        $('#clock').countdown('2016/12/02 08:00:00', function(event)
+        {
+            $(this).html(event.strftime('%D jours %H heures %M minutes %S secondes'));
+        });
+    </script>
+</body>
+</html>
