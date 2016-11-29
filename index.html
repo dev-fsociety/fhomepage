@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <meta class="foundation-mq">
+
+    <script>
+        function placeholder(obj){
+            obj.src = "img/placeholder.png";
+        }
+    </script>
   </head>
 <body data-whatinput="mouse">
     <div class="callout large">
@@ -37,56 +43,56 @@
     <div class="row">
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/anthony.jpg" style="display: block; z-index: 2;">
-            <img class="thumbnail real" src="img/placeholder.png" style="z-index: 1; display: block;">
+            <img class="thumbnail real" src="img/anthony_r.jpg" style="z-index: 1; display: block;">
             <p style="top: 242px;">Anthony Gourd</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/alban.jpg" style="display: block; z-index: 2;">
-            <img class="thumbnail real" src="img/placeholder.png" style="z-index: 1; display: block;">
+            <img class="thumbnail real" src="img/alban_r.jpg" style="z-index: 1; display: block;" onerror="placeholder(this)">
             <p style="top: 242px;">Alban Chazot</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/yann.jpg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/yann_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Yann Caumartin</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/lisa.jpg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/lisa_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Lisa Aubry</p>
         </div>
     </div>
     <div class="row">
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/korlan.jpg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/korlan_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Korlan Colas</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/corentin.jpg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/corentin_r.jpg">
             <p style="top: 242px;">Corentin Mors</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/gaetan.png">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/gaetan_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Gaetan Menat</p>
         </div>
         <div class="small-6 medium-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/kevin.png">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/kevin_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Kévin Cohen-Tanugi</p>
         </div>
     </div>
     <div class="row">
         <div class="small-6 medium-3 medium-offset-3 column member" style="height: 298px;">
             <img class="thumbnail character" src="img/pierre.jpeg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/pierre_r.jpg" onerror="placeholder(this)">
             <p style="top: 242px;">Pierre Bouwet</p>
         </div>
         <div class="small-6 medium-3 end column member" style="height: 298px;">
             <img class="thumbnail character" src="img/samuel.jpg">
-            <img class="thumbnail real" src="img/placeholder.png">
+            <img class="thumbnail real" src="img/samuel_r.jpeg">
             <p style="top: 242px;">Samuel Forestier</p>
         </div>
     </div>
@@ -100,7 +106,6 @@
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/fade_photo.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
     <script>
         $(document).foundation();
         $('#clock').countdown('2016/12/02 08:00:00', function(event)
